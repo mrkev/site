@@ -1,6 +1,4 @@
-
-var div = document.getElementById('form')
-div.innerHTML = `
+document.getElementById('form').innerHTML = `
 <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST">
         <table border=0 cellspacing=0 cellpadding=3>
             <tr>
@@ -28,10 +26,8 @@ div.innerHTML = `
 <input type="hidden" name="name_required" value="" >
 <input type="hidden" name="pw_required" value="" >
 <input type="hidden" name="confirm" value="one" >
-<input type="hidden" name="showconfirm" value="T" >
+<input type="hidden" name="showconfirm" value="F" >
 <input type="hidden" name="url" value="" >
 <input type="hidden" name="appendsubinfotourl" value="" >
-<input type="hidden" name="secx" value="f337ed4f" >
-
-</form>
+<input type="hidden" name="secx" value="cfe1b6e8" >
 `
