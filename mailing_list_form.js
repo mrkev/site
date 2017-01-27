@@ -1,8 +1,4 @@
 
-alert('asdf')
-
-
-
 var div = document.getElementById('form')
 div.innerHTML = `
 <form action="https://www.list.cornell.edu/subscribe/subscribe.tml" method="POST">
